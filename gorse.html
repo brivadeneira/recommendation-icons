@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fea2d154147a41afb135c35c9f64621e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fea2d154147a41afb135c35c9f64621e" ></div>
+        
+</body>
+<script>    
+    
+            var map_fea2d154147a41afb135c35c9f64621e = L.map(
+                "map_fea2d154147a41afb135c35c9f64621e",
+                {
+                    center: [-22.428703331910615, -71.6555707419672],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9770b72f34904628b75fe2f07ea90982 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+            var marker_ec9cb57dd55b49b3a87dbb68767e88c9 = L.marker(
+                [-34.61021683871842, -58.42501617408066],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_77f0c3e45fa74468894fe7fb162bce35 = L.icon({"iconSize": [120, 85], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_contact_ar.png"});
+        marker_ec9cb57dd55b49b3a87dbb68767e88c9.setIcon(custom_icon_77f0c3e45fa74468894fe7fb162bce35);
+        
+    
+        var popup_ab9f85b011d5414cbae0c71deca47730 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a519e771ae39465f916deb5f8310d159 = $(`<div id="html_a519e771ae39465f916deb5f8310d159" style="width: 100.0%; height: 100.0%;">Contact 1: <a href=https://www.properati.com.ar/emprendimientos-inmobiliarios/detalle/bartolome-mitre-4130_lepore-propiedades>Bartolome Mitre 4130 · Almagro 4130</a></div>`)[0];
+            popup_ab9f85b011d5414cbae0c71deca47730.setContent(html_a519e771ae39465f916deb5f8310d159);
+        
+
+        marker_ec9cb57dd55b49b3a87dbb68767e88c9.bindPopup(popup_ab9f85b011d5414cbae0c71deca47730)
+        ;
+
+        
+    
+    
+            var marker_1e4aad4ed60d4347b5f2de3176dc87bd = L.marker(
+                [-34.595259467969605, -58.42284087408123],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_e604f9cf025d4408b386de8f794ba6d9 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/second_contact_ar.png?token=ADUPEXG7HXC52QGZHSQWC6LB2X7WO"});
+        marker_1e4aad4ed60d4347b5f2de3176dc87bd.setIcon(custom_icon_e604f9cf025d4408b386de8f794ba6d9);
+        
+    
+        var popup_dc8162d1764142058ced1c570077da06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ae188d25aa24a6ab6503b8e1bc62ad5 = $(`<div id="html_8ae188d25aa24a6ab6503b8e1bc62ad5" style="width: 100.0%; height: 100.0%;">Contact 2: <a href=https://www.properati.com.ar/emprendimientos-inmobiliarios/detalle/gascon-1285>Gascón 1285 · Gascón 1285</a></div>`)[0];
+            popup_dc8162d1764142058ced1c570077da06.setContent(html_8ae188d25aa24a6ab6503b8e1bc62ad5);
+        
+
+        marker_1e4aad4ed60d4347b5f2de3176dc87bd.bindPopup(popup_dc8162d1764142058ced1c570077da06)
+        ;
+
+        
+    
+    
+            var marker_af41e6ee63664c0c9ccf90bcfb8cacc6 = L.marker(
+                [-34.63119376508805, -58.459933074079906],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_77ce5ffced2f4de38aa346d5e40f62c1 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_recommendation_ar.png"});
+        marker_af41e6ee63664c0c9ccf90bcfb8cacc6.setIcon(custom_icon_77ce5ffced2f4de38aa346d5e40f62c1);
+        
+    
+        var popup_629981066a1f44c89eb6ea3c571cb616 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78ac799b6d1949119d2424c98051d14e = $(`<div id="html_78ac799b6d1949119d2424c98051d14e" style="width: 100.0%; height: 100.0%;">Recommendation 1: <a href=https://www.properati.com.ar/emprendimientos-inmobiliarios/detalle/membrillar-255_lepore-propiedades>Membrillar 255 · Flores 255</a></div>`)[0];
+            popup_629981066a1f44c89eb6ea3c571cb616.setContent(html_78ac799b6d1949119d2424c98051d14e);
+        
+
+        marker_af41e6ee63664c0c9ccf90bcfb8cacc6.bindPopup(popup_629981066a1f44c89eb6ea3c571cb616)
+        ;
+
+        
+    
+    
+            var marker_6e26a28071c547e283b34df8992194ca = L.marker(
+                [-34.63110103690549, -58.44175027407995],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_4b28a7340ca9493192558f24c7ceb3c2 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/second_recommendation_ar.png"});
+        marker_6e26a28071c547e283b34df8992194ca.setIcon(custom_icon_4b28a7340ca9493192558f24c7ceb3c2);
+        
+    
+        var popup_a19a8c91a998400babbe1dc0adffb25e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9109c19d51ea4d5e8bbc3818940e7a8e = $(`<div id="html_9109c19d51ea4d5e8bbc3818940e7a8e" style="width: 100.0%; height: 100.0%;">Recommendation 2: <a href=https://www.properati.com.ar/emprendimientos-inmobiliarios/detalle/emilio-mitre-860_lepore-propiedades>Emilio Mitre 860 · Parque Chacabuco 860</a></div>`)[0];
+            popup_a19a8c91a998400babbe1dc0adffb25e.setContent(html_9109c19d51ea4d5e8bbc3818940e7a8e);
+        
+
+        marker_6e26a28071c547e283b34df8992194ca.bindPopup(popup_a19a8c91a998400babbe1dc0adffb25e)
+        ;
+
+        
+    
+    
+            var marker_4d13358195c14c6dbaf0ce9bef833d79 = L.marker(
+                [-34.62495139443344, -58.438891820706374],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_2ada120eb8c04a498644e01454ac435b = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/third_recommendation_ar.png"});
+        marker_4d13358195c14c6dbaf0ce9bef833d79.setIcon(custom_icon_2ada120eb8c04a498644e01454ac435b);
+        
+    
+        var popup_d81395540ce44e3ab4dd774564a9cc08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48e967d3a2a94591bdd82636a9613383 = $(`<div id="html_48e967d3a2a94591bdd82636a9613383" style="width: 100.0%; height: 100.0%;">Recommendation 3: <a href=https://www.properati.com.ar/emprendimientos-inmobiliarios/detalle/valle-778_lepore-propiedades>Valle 778 · Caballito 778</a></div>`)[0];
+            popup_d81395540ce44e3ab4dd774564a9cc08.setContent(html_48e967d3a2a94591bdd82636a9613383);
+        
+
+        marker_4d13358195c14c6dbaf0ce9bef833d79.bindPopup(popup_d81395540ce44e3ab4dd774564a9cc08)
+        ;
+
+        
+    
+    
+            var marker_208d46af83774d3db4b76b84b66ca54d = L.marker(
+                [-31.492816, -64.27212],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_92e5fb60a9f94942bf95381dc4f05171 = L.icon({"iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/popular_ar.png"});
+        marker_208d46af83774d3db4b76b84b66ca54d.setIcon(custom_icon_92e5fb60a9f94942bf95381dc4f05171);
+        
+    
+        var popup_c6e9188b8c2047b0b1350a65f98ceb42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90608d1d620641fdafb993850387e045 = $(`<div id="html_90608d1d620641fdafb993850387e045" style="width: 100.0%; height: 100.0%;">Popular: <a href=https://www.properati.com.ar/emprendimientos-inmobiliarios/detalle/cuestas-campos-y-pampas-de-manantiales>Cuestas, Campos y Pampas de Manantiales</a></div>`)[0];
+            popup_c6e9188b8c2047b0b1350a65f98ceb42.setContent(html_90608d1d620641fdafb993850387e045);
+        
+
+        marker_208d46af83774d3db4b76b84b66ca54d.bindPopup(popup_c6e9188b8c2047b0b1350a65f98ceb42)
+        ;
+
+        
+    
+    
+            var marker_bd79ea94b21c4a2fa787e762cee39845 = L.marker(
+                [-0.03274602187858143, -78.45371842677855],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_6636be69c5fe4ac991a667b8c24a7da9 = L.icon({"iconSize": [120, 85], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_contact_ec.png"});
+        marker_bd79ea94b21c4a2fa787e762cee39845.setIcon(custom_icon_6636be69c5fe4ac991a667b8c24a7da9);
+        
+    
+        var popup_0258d7ae25684f4dae754203e061dbc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_411df22adc4a4c1e904da56cfc0f55ec = $(`<div id="html_411df22adc4a4c1e904da56cfc0f55ec" style="width: 100.0%; height: 100.0%;">Contact: <a href=https://www.properati.com.ec/proyectos-inmobiliarios/detalle/porton-de-malaga>Porton de Malaga 2 · Av. Manuel Cordova Galarza</a></div>`)[0];
+            popup_0258d7ae25684f4dae754203e061dbc8.setContent(html_411df22adc4a4c1e904da56cfc0f55ec);
+        
+
+        marker_bd79ea94b21c4a2fa787e762cee39845.bindPopup(popup_0258d7ae25684f4dae754203e061dbc8)
+        ;
+
+        
+    
+    
+            var marker_7cafb0e844f84e4c940c62ac93e3fbce = L.marker(
+                [-0.04830294413403202, -78.45451057199263],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_73ce664e88c84fb6863711081678585e = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_recommendation_ec.png"});
+        marker_7cafb0e844f84e4c940c62ac93e3fbce.setIcon(custom_icon_73ce664e88c84fb6863711081678585e);
+        
+    
+        var popup_37476ca4e151433aa12a27d1818555ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_395633d9fcc04e729195007fa40bad25 = $(`<div id="html_395633d9fcc04e729195007fa40bad25" style="width: 100.0%; height: 100.0%;">Recommendation 1: <a href=https://www.properati.com.ec/proyectos-inmobiliarios/detalle/alcazar-de-salamanca-ii>Alcázar de Alicante</a></div>`)[0];
+            popup_37476ca4e151433aa12a27d1818555ec.setContent(html_395633d9fcc04e729195007fa40bad25);
+        
+
+        marker_7cafb0e844f84e4c940c62ac93e3fbce.bindPopup(popup_37476ca4e151433aa12a27d1818555ec)
+        ;
+
+        
+    
+    
+            var marker_fdc5d9b6e6b84abdaf348323692fabc2 = L.marker(
+                [-0.042637452135597574, -78.45313241713687],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_e263cf646cd9437e9427f79398b27a01 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/second_recommendation_ec.png"});
+        marker_fdc5d9b6e6b84abdaf348323692fabc2.setIcon(custom_icon_e263cf646cd9437e9427f79398b27a01);
+        
+    
+        var popup_4e1283efca6e484e81ccc0ea0ec746eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9dbd4826e7b4f97b15ed808e0010a4b = $(`<div id="html_d9dbd4826e7b4f97b15ed808e0010a4b" style="width: 100.0%; height: 100.0%;">Recommendation 2: <a href=https://www.properati.com.ec/proyectos-inmobiliarios/detalle/alcazar-de-granada>Alcázar de Granada</a></div>`)[0];
+            popup_4e1283efca6e484e81ccc0ea0ec746eb.setContent(html_d9dbd4826e7b4f97b15ed808e0010a4b);
+        
+
+        marker_fdc5d9b6e6b84abdaf348323692fabc2.bindPopup(popup_4e1283efca6e484e81ccc0ea0ec746eb)
+        ;
+
+        
+    
+    
+            var marker_4acb83849ce940c0a4e1efc5d6396dbe = L.marker(
+                [-0.036968252780238, -78.45212832538245],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_6d1c588dd2bb44e49cf1d97e1a839281 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/third_recommendation_ec.png"});
+        marker_4acb83849ce940c0a4e1efc5d6396dbe.setIcon(custom_icon_6d1c588dd2bb44e49cf1d97e1a839281);
+        
+    
+        var popup_e24e276e462549829876d4399a4b138b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27dd30ef675b4845b8ababad72f7fc47 = $(`<div id="html_27dd30ef675b4845b8ababad72f7fc47" style="width: 100.0%; height: 100.0%;">Recommendation 3: <a href=https://www.properati.com.ec/proyectos-inmobiliarios/detalle/sirah-ll-casa>Sirah ll Casas</a</div>`)[0];
+            popup_e24e276e462549829876d4399a4b138b.setContent(html_27dd30ef675b4845b8ababad72f7fc47);
+        
+
+        marker_4acb83849ce940c0a4e1efc5d6396dbe.bindPopup(popup_e24e276e462549829876d4399a4b138b)
+        ;
+
+        
+    
+    
+            var marker_3f865ff16b464b63953d55c8a59312b1 = L.marker(
+                [-0.10398119165305977, -78.46707706426123],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_ee96faa5b0bc44c4aac1f8f3031fa1aa = L.icon({"iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/popular_ec.png"});
+        marker_3f865ff16b464b63953d55c8a59312b1.setIcon(custom_icon_ee96faa5b0bc44c4aac1f8f3031fa1aa);
+        
+    
+        var popup_15f883adcbd34273b97030be4c71e4cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_339b263855fc4074b8960016cc7949c5 = $(`<div id="html_339b263855fc4074b8960016cc7949c5" style="width: 100.0%; height: 100.0%;">Popular: <a href=https://www.properati.com.ec/proyectos-inmobiliarios/detalle/avila-de-carretas>Avila de carretas</a></div>`)[0];
+            popup_15f883adcbd34273b97030be4c71e4cc.setContent(html_339b263855fc4074b8960016cc7949c5);
+        
+
+        marker_3f865ff16b464b63953d55c8a59312b1.bindPopup(popup_15f883adcbd34273b97030be4c71e4cc)
+        ;
+
+        
+    
+    
+            var marker_b49f504647f24ca5b18ed7e20fcf28b3 = L.marker(
+                [6.146225616437981, -75.61018424285042],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_e6031a3087604029abba3a6e3cb2bea4 = L.icon({"iconSize": [120, 85], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_contact_co.png"});
+        marker_b49f504647f24ca5b18ed7e20fcf28b3.setIcon(custom_icon_e6031a3087604029abba3a6e3cb2bea4);
+        
+    
+        var popup_bc587844892040939b593f3a5a57a0da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b284ac0652fd4f4698a0f09cab5da0cb = $(`<div id="html_b284ac0652fd4f4698a0f09cab5da0cb" style="width: 100.0%; height: 100.0%;">Contact: <a href=https://www.properati.com.co/proyectos-de-vivienda/detalle/dublin>Dublin</a></div>`)[0];
+            popup_bc587844892040939b593f3a5a57a0da.setContent(html_b284ac0652fd4f4698a0f09cab5da0cb);
+        
+
+        marker_b49f504647f24ca5b18ed7e20fcf28b3.bindPopup(popup_bc587844892040939b593f3a5a57a0da)
+        ;
+
+        
+    
+    
+            var marker_fd212ab21104448c8ae7aacd1d92ebe2 = L.marker(
+                [6.146618802099796, -75.61174812196928],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_05e7a4a2575a4981941e3f55c2c18ca2 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_recommendation_co.png"});
+        marker_fd212ab21104448c8ae7aacd1d92ebe2.setIcon(custom_icon_05e7a4a2575a4981941e3f55c2c18ca2);
+        
+    
+        var popup_2bd924ab163a4291a930813d37b1927a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_070fde861f894e19bb9b75b275be67ac = $(`<div id="html_070fde861f894e19bb9b75b275be67ac" style="width: 100.0%; height: 100.0%;">Recommendation 1: <a href=https://www.properati.com.co/proyectos-inmobiliarios/detalle/lagos-del-sur-sabaneta>Lagos del sur Sabaneta</a></div>`)[0];
+            popup_2bd924ab163a4291a930813d37b1927a.setContent(html_070fde861f894e19bb9b75b275be67ac);
+        
+
+        marker_fd212ab21104448c8ae7aacd1d92ebe2.bindPopup(popup_2bd924ab163a4291a930813d37b1927a)
+        ;
+
+        
+    
+    
+            var marker_33ddd873bde04150acde13fdc03e6de3 = L.marker(
+                [6.146018697046055, -75.62708384297778],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_e1ad7bda6c79424e9a7e9e587b56426c = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/second_recommendation_ec.png"});
+        marker_33ddd873bde04150acde13fdc03e6de3.setIcon(custom_icon_e1ad7bda6c79424e9a7e9e587b56426c);
+        
+    
+        var popup_2570552d4e964e03aebab5665cbcebfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee8c3d9bf9554dc4bbde364f1ad5899f = $(`<div id="html_ee8c3d9bf9554dc4bbde364f1ad5899f" style="width: 100.0%; height: 100.0%;">Recommendation 2: <a href=https://www.properati.com.co/proyectos-de-vivienda/detalle/ciudadela-monteazul-sabaneta-pan-de-azucar>Ciudadela Monteazul - Sabaneta Pan de Azúcar</a></div>`)[0];
+            popup_2570552d4e964e03aebab5665cbcebfc.setContent(html_ee8c3d9bf9554dc4bbde364f1ad5899f);
+        
+
+        marker_33ddd873bde04150acde13fdc03e6de3.bindPopup(popup_2570552d4e964e03aebab5665cbcebfc)
+        ;
+
+        
+    
+    
+            var marker_08b03035659548ac9c58b4938af16e08 = L.marker(
+                [6.154846266988992, -75.60063185884813],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_3038b527e0514c5fb65d1ed59d4ebba4 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/third_recommendation_co.png"});
+        marker_08b03035659548ac9c58b4938af16e08.setIcon(custom_icon_3038b527e0514c5fb65d1ed59d4ebba4);
+        
+    
+        var popup_f77964aba58a470f98d4ef8ebe9aa696 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9746ce5e71141ec83d567e77f5bb285 = $(`<div id="html_c9746ce5e71141ec83d567e77f5bb285" style="width: 100.0%; height: 100.0%;">Recommendation 3: <a href=https://www.properati.com.co/proyectos-de-vivienda/detalle/guatapuri-de-la-cuenca-envigado>Guatapurí de la Cuenca - Envigado</a></div>`)[0];
+            popup_f77964aba58a470f98d4ef8ebe9aa696.setContent(html_c9746ce5e71141ec83d567e77f5bb285);
+        
+
+        marker_08b03035659548ac9c58b4938af16e08.bindPopup(popup_f77964aba58a470f98d4ef8ebe9aa696)
+        ;
+
+        
+    
+    
+            var marker_c6be4df0b3d343c9bfcfd11e3123ba3b = L.marker(
+                [-12.099816832730658, -77.06301691692],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_40210644d50f441aa04b941d94dc401d = L.icon({"iconSize": [120, 85], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_contact_pe.png"});
+        marker_c6be4df0b3d343c9bfcfd11e3123ba3b.setIcon(custom_icon_40210644d50f441aa04b941d94dc401d);
+        
+    
+        var popup_7007d5400dee44008a32b73609e50c26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_989b4e837dc1429f8d14fde62156eefa = $(`<div id="html_989b4e837dc1429f8d14fde62156eefa" style="width: 100.0%; height: 100.0%;">Contact 1: <a href=https://www.properati.com.pe/proyectos-inmobiliarios/detalle/cricket-park>CRICKET PARK</a></div>`)[0];
+            popup_7007d5400dee44008a32b73609e50c26.setContent(html_989b4e837dc1429f8d14fde62156eefa);
+        
+
+        marker_c6be4df0b3d343c9bfcfd11e3123ba3b.bindPopup(popup_7007d5400dee44008a32b73609e50c26)
+        ;
+
+        
+    
+    
+            var marker_6cd4ce0736ec487bbc638e7411703236 = L.marker(
+                [-12.0989979, -77.062655],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_2b6465587c6b49519604d961c62237ac = L.icon({"iconSize": [120, 85], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/second_contact_pe.png"});
+        marker_6cd4ce0736ec487bbc638e7411703236.setIcon(custom_icon_2b6465587c6b49519604d961c62237ac);
+        
+    
+        var popup_910d926765af4946b3610fd32468a217 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_685585970c0841028c9425c78fa48394 = $(`<div id="html_685585970c0841028c9425c78fa48394" style="width: 100.0%; height: 100.0%;">Contact 2: <a href=https://www.properati.com.pe/emprendimientos-inmobiliarios/detalle/lexus-3>Lexus 3</a></div>`)[0];
+            popup_910d926765af4946b3610fd32468a217.setContent(html_685585970c0841028c9425c78fa48394);
+        
+
+        marker_6cd4ce0736ec487bbc638e7411703236.bindPopup(popup_910d926765af4946b3610fd32468a217)
+        ;
+
+        
+    
+    
+            var marker_86dc2af84d49476f81badf83ce7e10dd = L.marker(
+                [-12.08973445, -77.05834425],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_7c738c7e21844526b5eed5f9d470c4f9 = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/first_recommendation_pe.png"});
+        marker_86dc2af84d49476f81badf83ce7e10dd.setIcon(custom_icon_7c738c7e21844526b5eed5f9d470c4f9);
+        
+    
+        var popup_bcae58a4bb88422d966e451b18506e6e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_800abc986e87424eb6fd8b6a2820daab = $(`<div id="html_800abc986e87424eb6fd8b6a2820daab" style="width: 100.0%; height: 100.0%;">Recommendation 1: <a href=https://www.properati.com.pe/emprendimientos-inmobiliarios/detalle/domingo-ponte>Domingo Ponte</a></div>`)[0];
+            popup_bcae58a4bb88422d966e451b18506e6e.setContent(html_800abc986e87424eb6fd8b6a2820daab);
+        
+
+        marker_86dc2af84d49476f81badf83ce7e10dd.bindPopup(popup_bcae58a4bb88422d966e451b18506e6e)
+        ;
+
+        
+    
+    
+            var marker_729fad4c0de1440c9025681d24e128ba = L.marker(
+                [-12.0903817, -77.0601089],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_a09cca629505483699cb47ca51d888cd = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/second_recommendation_pe.png"});
+        marker_729fad4c0de1440c9025681d24e128ba.setIcon(custom_icon_a09cca629505483699cb47ca51d888cd);
+        
+    
+        var popup_67d06c5ac78e4af3a972fea4bfe89a61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d73acd4066b74ac3886784e91afa6b3c = $(`<div id="html_d73acd4066b74ac3886784e91afa6b3c" style="width: 100.0%; height: 100.0%;">Recommendation 2: <a href=https://www.properati.com.pe/emprendimientos-inmobiliarios/detalle/orizzon>Orizzon</a></div>`)[0];
+            popup_67d06c5ac78e4af3a972fea4bfe89a61.setContent(html_d73acd4066b74ac3886784e91afa6b3c);
+        
+
+        marker_729fad4c0de1440c9025681d24e128ba.bindPopup(popup_67d06c5ac78e4af3a972fea4bfe89a61)
+        ;
+
+        
+    
+    
+            var marker_5509a9e82df54716be4a859d1fa382c3 = L.marker(
+                [-12.096721, -77.0717666],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_8f5bca8c9ad44f47a502bf586a6d439b = L.icon({"iconSize": [100, 72], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/third_recommendation_pe.png"});
+        marker_5509a9e82df54716be4a859d1fa382c3.setIcon(custom_icon_8f5bca8c9ad44f47a502bf586a6d439b);
+        
+    
+        var popup_5edc0f8cac6a41c096c011cfea2a0882 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b14fb27170b4bda86e03f3927090a05 = $(`<div id="html_7b14fb27170b4bda86e03f3927090a05" style="width: 100.0%; height: 100.0%;">Recommendation 3: <a href=https://www.properati.com.pe/emprendimientos-inmobiliarios/detalle/brissa-4112>Brissa 4112</a></div>`)[0];
+            popup_5edc0f8cac6a41c096c011cfea2a0882.setContent(html_7b14fb27170b4bda86e03f3927090a05);
+        
+
+        marker_5509a9e82df54716be4a859d1fa382c3.bindPopup(popup_5edc0f8cac6a41c096c011cfea2a0882)
+        ;
+
+        
+    
+    
+            var marker_00e5d9987d044d958ac382b04f0060ab = L.marker(
+                [-12.138612757084953, -77.01716927771368],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_2de2086704ce47beab6a9c94188cbf94 = L.icon({"iconSize": [50, 50], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/popular_pe.png"});
+        marker_00e5d9987d044d958ac382b04f0060ab.setIcon(custom_icon_2de2086704ce47beab6a9c94188cbf94);
+        
+    
+        var popup_416524c13b024f5c8604177e16c1f529 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9addf406da454e61b6dcd3ffad5c1671 = $(`<div id="html_9addf406da454e61b6dcd3ffad5c1671" style="width: 100.0%; height: 100.0%;">Popular: <a href=https://www.properati.com.pe/proyectos-inmobiliarios/detalle/serk>Serk</a></div>`)[0];
+            popup_416524c13b024f5c8604177e16c1f529.setContent(html_9addf406da454e61b6dcd3ffad5c1671);
+        
+
+        marker_00e5d9987d044d958ac382b04f0060ab.bindPopup(popup_416524c13b024f5c8604177e16c1f529)
+        ;
+
+        
+    
+    
+            var marker_b1ada32a6b1e4ed694207dfc2cd2abf9 = L.marker(
+                [-35.67384085165142, -93.01625516576541],
+                {}
+            ).addTo(map_fea2d154147a41afb135c35c9f64621e);
+        
+    
+        var custom_icon_1941e59548844ae6a5ff8a7819080998 = L.icon({"iconSize": [200, 200], "iconUrl": "https://raw.githubusercontent.com/brivadeneira/recommendation-icons/main/references.png"});
+        marker_b1ada32a6b1e4ed694207dfc2cd2abf9.setIcon(custom_icon_1941e59548844ae6a5ff8a7819080998);
+        
+</script>
